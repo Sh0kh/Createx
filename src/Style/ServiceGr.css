@@ -1,0 +1,32 @@
+.Gr__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gr__img img{
+    width: 535px;
+}
+.Gr{
+    margin-top: 200px;
+}
+@media(max-width:1200px){
+    .Gr__wrapper{
+       flex-direction: column;
+       
+    }   
+   }
+   @media(max-width:650px){
+       .gr__img img{
+           width: 500px;
+       }
+   }
+   @media(max-width:510px){
+       .gr__img img{
+           width: 400px;
+       }
+   }
+   @media(max-width:410px){
+       .gr__img img{
+           width: 300px;
+       }
+   }

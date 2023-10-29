@@ -1,0 +1,32 @@
+.rs__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rs__img img{
+    width: 400px;
+}
+.rs{
+    margin-top: 100px;
+}
+@media(max-width:1200px){
+    .rs__wrapper{
+       flex-direction: column;
+       
+    }   
+   }
+   @media(max-width:650px){
+       .rs__img img{
+           width: 500px;
+       }
+   }
+   @media(max-width:510px){
+       .rs__img img{
+           width: 400px;
+       }
+   }
+   @media(max-width:410px){
+       .rs__img img{
+           width: 300px;
+       }
+   }

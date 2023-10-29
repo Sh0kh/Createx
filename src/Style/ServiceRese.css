@@ -1,0 +1,32 @@
+.rese__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rese__img img{
+    width: 600px;
+}
+.rese{
+    margin-top: 200px;
+}
+@media(max-width:1200px){
+ .rese__wrapper{
+    flex-direction: column;
+    
+ }   
+}
+@media(max-width:650px){
+    .rese__img img{
+        width: 500px;
+    }
+}
+@media(max-width:510px){
+    .rese__img img{
+        width: 400px;
+    }
+}
+@media(max-width:410px){
+    .rese__img img{
+        width: 300px;
+    }
+}

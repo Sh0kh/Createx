@@ -1,0 +1,43 @@
+.CaseHero{
+    background: radial-gradient(175.37% 96.44% at 10% 13.52%, #232441 0%, #232441 56.38%, #1E212C 100%);
+    padding-top: 141px;
+    padding-bottom: 120px;
+    position: relative;
+}
+.CaseHero h1{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 130%; /* 93.6px */
+    letter-spacing: 1px;
+}
+.CaseHero p{
+    color: var(--white, #FFF);
+text-align: center;
+margin: 0 auto;
+/* lead/regular */
+width: 810px;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+margin-top: 25px;
+}
+@media(max-width:1200px){
+ 
+    .CaseHero h1{
+        width: auto;
+    }
+    .CaseHero p{
+        width: auto;
+    }
+}
+@media(max-width:500px){
+ 
+    .CaseHero h1{
+        width: auto;
+        font-size: 50px;
+    }
+}

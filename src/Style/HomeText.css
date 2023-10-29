@@ -1,0 +1,32 @@
+
+.home__text{
+    margin-top: 120px;
+}
+.text__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text__content p{
+    color: var(--gray-900, #1E212C);
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 42px */
+width: 630px;
+}
+@media(max-width:1200px){
+    .text__wrapper{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .text__content p{
+        width: auto;
+        text-align: center;
+    }
+}
+@media(max-width:450px){
+   .text__img img{
+        width: 300px;
+   }
+}

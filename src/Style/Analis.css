@@ -1,0 +1,123 @@
+.analis{
+    background-color: #1E212C;
+    margin-top: 180px;
+    padding: 80px 0;
+}
+.analis__wrapper{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.analis__content h1{
+    color: var(--white, #FFF);
+    margin-bottom: 40px;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 130%; /* 59.8px */
+}
+.an__input1 input{
+    display: flex;
+width: 285px;
+padding: 13px 194px 13px 16px;
+align-items: center;
+border-radius: 4px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+background: rgba(255, 255, 255, 0.12);
+
+border: none;
+}
+.an__input1{
+    display: flex;
+    align-items: center;
+    gap: 30px
+    ;
+}
+.an__inp2 {
+    display: flex;
+width: 600px;
+padding: 13px 449px 13px 16px;
+align-items: center;
+border-radius: 4px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+background: rgba(255, 255, 255, 0.12);
+border: none;
+margin-top: 60px;
+margin-bottom: 50px;
+}
+.analis__btn p{
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    width: 280px;
+}
+.analis__btn button{
+    color: var(--white, #FFF);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; /* 325% */
+letter-spacing: 0.5px;
+cursor: pointer;
+display: inline-flex;
+padding: 0px 40px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+border: none;
+border-radius: 4px;
+background: var(--primary, #7772F1);
+}
+.analis__btn{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+@media(max-width:1050px){
+    .analis__wrapper{
+        flex-direction: column;
+        gap: 50px 0;
+    }
+    .an__input1{
+       
+        width: 100px;
+    }
+}
+@media(max-width:700px){
+    .an__input1 input{
+        width: 200px;
+    }
+    .an__inp2{
+        width: 400px;
+    }
+    .analis__content h1{
+        width:  auto;
+    }
+    .analis__content p{
+        width: auto;
+    }
+}
+@media(max-width:500px){
+    .an__input1 input{
+        display: none;
+    }
+    .an__inp2{
+        display: none;
+    }
+}
+@media(max-width:450px){
+    .analis__img img{
+        width: 300px;
+    }
+    .analis__btn{
+        flex-direction: column;
+    }
+}
+@media(max-width:350px){
+    .analis__img img{
+        width: 200px;
+    }
+}
